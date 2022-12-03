@@ -18,7 +18,7 @@ function App() {
     another use of useRef is we can reference
     dom elements and select, manipulate them
     using ref attribute on elements..
-    see the code for example.
+    see the code for example..
   */
   
   const [name, setName] = useState('')
