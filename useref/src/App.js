@@ -5,8 +5,8 @@ function App() {
   /*
     useRef is used to avoid renders,
     it is very similar to useState as
-    it presist previous value between render
-    without causing renders.. it returns and
+    it presist previous value between render 
+    but without causing renders.. it returns an
     object with a current property in it,
     which can be used to get prev state.
 
@@ -15,9 +15,10 @@ function App() {
     since it will cause a re-render too.. useRef
     solves this problem.
 
-    another use of useRef is we can reference dom
-    and select and manipulate them using ref
-    attribute on ellemets.. see code for example.
+    another use of useRef is we can reference
+    dom elements and select, manipulate them
+    using ref attribute on elements..
+    see the code for example.
   */
   
   const [name, setName] = useState('')
