@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  color: white;
+  background-color: black;
+  font-family: sans-serif;
+  display: grid;
+  place-content: center;
+}
+h3{
+  font-size: 1.7rem;
+}
+.container{
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 2rem;
+  outline: 2px solid white;
+  border-radius: 10px;
+  font-size: 1.25rem;
+}
+.container input {
+  width: 100%;
+  padding-block: .75rem;
+  border-radius: 10px;
+  border: 0;
+  text-indent: 1rem;
+}
+.container .btn {
+  width: 100%;
+  padding-block: .75rem;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 0;
+}
+.container .btn.btn:hover{
+  opacity: .75;
+}
