@@ -9,17 +9,7 @@ import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 //   messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
 //   appId: process.env.REACT_APP_FIREBASE_APP_ID,
 //   measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID,
-// };
-
-const firebaseConfig = {
-  apiKey: "AIzaSyDzxykgYRYXE-5kK2kjTOkTeztD-gtLWxA",
-  authDomain: "basic-auth-dbf70.firebaseapp.com",
-  projectId: "basic-auth-dbf70",
-  storageBucket: "basic-auth-dbf70.appspot.com",
-  messagingSenderId: "498250196902",
-  appId: "1:498250196902:web:55f327719a49736a5c5167",
-  measurementId: "G-M8CYHV41DS",
-};
+// }; uncomment this
 
 const app = initializeApp(firebaseConfig);
 
