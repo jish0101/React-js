@@ -9,7 +9,7 @@ import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 //   messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
 //   appId: process.env.REACT_APP_FIREBASE_APP_ID,
 //   measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID,
-// }; uncomment this
+// }; uncomment this and add your api keys
 
 const app = initializeApp(firebaseConfig);
 
